@@ -3,10 +3,22 @@
 
 #include "pch.h"
 #include <iostream>
+#include <string>
+
+#include "hash.h"
+
+
+
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	hash Hashy;
+
+	Hashy.PrintTable();
+
+
+
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
